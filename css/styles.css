@@ -98,8 +98,8 @@ li.span4 {
 7  - Features Styles
 8  - Tabbed Features Styles
 9  - Footer Button Styles
-10  - Responsive  Styles
-11 -  Contact Form  Styles
+10 - Responsive  Styles
+11 - Contact Form  Styles
 
 ###################################### */
 
@@ -701,6 +701,13 @@ li.current a {
     padding: 200px 0;
 }
 
+.features-background {
+    background-image: url(../img/screenshots/frankie-tong_h_header.jpg);
+	padding: 300px 0;
+	background-size:cover;
+	background-position: top;
+	}
+
 .quote {
     background: #F0F0F0;
     padding: 20px 0 20px 0;
@@ -708,7 +715,7 @@ li.current a {
 
 .page-title {
     background: #F0F0F0;
-    padding: 100px 0 20px 0;
+    padding: 80px 0 40px 0;
 }
 
 .page-link {
@@ -777,10 +784,13 @@ li.current a {
 }
 
 .icon {
-    width: 100px;
-    height: 100px;
+    font-size: 2rem;
+	width: 100px;
+    height: 50px;
     margin: 39px auto 0px auto;
     display: block;
+	text-align: center;
+	color: #07b0bf;
 }
 
 .ft2 {
@@ -1095,6 +1105,15 @@ ul.linkmore li:last-child {
     line-height: 120%;
 }
 
+#tabbed-content .page-title h3 {
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    line-height: 120%;
+	padding-bottom: 20px;
+}
+
 #tabbed-content .page-title h5 {
     margin-top: 10px;
 	padding: 50px 0 10px 0;
@@ -1305,7 +1324,7 @@ ul.linkmore li:last-child {
     font-size: 14px;
     line-height: 21px;
     color: #666666;
-    text-align: center
+    text-align: center;
 }
 
 #about .social-link {
@@ -1357,7 +1376,7 @@ ul.linkmore li:last-child {
     font-style: italic;
     color: #9b9b9b;
     margin-bottom: 20px;
-    position: relative
+    position: relative;
 }
 
 #say .blockquote:after {
@@ -1411,7 +1430,7 @@ ul.linkmore li:last-child {
     font-size: 12px;
     line-height: 21px;
     color: #666666;
-    float: left
+    float: left;
 }
 
 #say .author .name strong {
@@ -1427,8 +1446,23 @@ ul.linkmore li:last-child {
 #text p {
     color: #666666;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 28px;
 	text-align: left;
+}
+
+#text .center p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 24px;
+	text-align: center;
+}
+
+#text .number p {
+    color: #07b0bf;
+    font-size: 36px;
+    line-height: 36px;
+	text-align: center;
+	padding-bottom: 10px;
 }
 
 #text .dropcap {
@@ -1438,6 +1472,10 @@ ul.linkmore li:last-child {
     line-height: 40px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+.left {
+	text-align: left;
 }
 
 /* ############## Pricing Tables ################# */
@@ -1461,7 +1499,7 @@ span.price {
     color: #666666;
     font-size: 12px;
     line-height: 18px;
-    text-align: center
+    text-align: center;
 }
 
 #pricing .pric2 {
@@ -1471,7 +1509,7 @@ span.price {
     color: #666666;
     font-size: 12px;
     line-height: 18px;
-    text-align: center
+    text-align: center;
 }
 
 #pricing .pric .price-head {
