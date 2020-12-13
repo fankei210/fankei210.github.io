@@ -107,6 +107,7 @@ li.span4 {
 
 /* ################################### */
 
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, img, small, strong, ol, ul, li, form, label,
@@ -122,6 +123,18 @@ table, caption, tr, td, footer, header {
 footer, header, menu, nav, section {
     display: block;
 }
+
+header {
+	height: 70px;
+	position: fixed;top: 0;
+	transition: top 0.2s ease-in-out;
+	width: 100%;
+	z-index: 199;
+	}
+
+.nav-up {
+	top: -70px;
+	}
 
 body {
     line-height: 1;
@@ -282,14 +295,12 @@ span.bold {
     width: 100%;
     padding: 15px 0;
     height: 40px;
-    background: #07b0bf;
+    background: rgb(7, 176, 191, .8);
     z-index: 199;
-    display: block;
-	position: fixed;
-	
+    display: block;	
 }
 
-.top-nav.black {
+.top-nav .black {
     width: 100%;
     padding: 25px 0;
     height: 41px;
@@ -703,6 +714,12 @@ li.current a {
 
 .features-background {
     background-image: url(../img/screenshots/frankie-tong_h_header.jpg);
+	background-size:cover;
+	background-position: top;
+	}
+
+.features-background-wfh {
+    background-image: url(../img/screenshots/frankietong_wfh_header.jpg);
 	background-size:cover;
 	background-position: top;
 	}
