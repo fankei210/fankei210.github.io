@@ -734,6 +734,11 @@ li.current a {
     padding: 0 0 40px 0;
 }
 
+.page-title-padding-top {
+    background: #F0F0F0;
+    padding: 40px 0 40px 0;
+}
+
 .page-link {
     background: #F0F0F0;
     padding: 20px 0 20px 0;
