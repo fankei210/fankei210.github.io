@@ -724,6 +724,13 @@ li.current a {
 	background-position: top;
 	}
 
+.features-background-thf {
+    background-image: url(../img/screenshots/frankie-tong_thf_header.jpg);
+	background-size:cover;
+	background-position: top;
+	}
+
+
 .quote {
     background: #F0F0F0;
     padding: 20px 0 20px 0;
